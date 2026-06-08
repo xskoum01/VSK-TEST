@@ -1,0 +1,16 @@
+# Ignore everything by default
+*
+
+# Unignore this file
+!.gitignore
+
+# Unignore Plugins/Test.PluginTest
+!Plugins/
+!Plugins/Test.PluginTest/
+!Plugins/Test.PluginTest/**
+
+# Ignore build artifacts inside Test.PluginTest
+Plugins/Test.PluginTest/.vs/
+Plugins/Test.PluginTest/**/bin/
+Plugins/Test.PluginTest/**/obj/
+Plugins/Test.PluginTest/**/*.user
