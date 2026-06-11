@@ -26,5 +26,4 @@ Plugins/Navertica.ZlrOpportunity/**/*.user
 
 # Unignore Task 3 and Task 4 scripts
 !Scripts/
-!Scripts/nvr_opportunity_events.js
-!Scripts/nvr_interaction_ribbon.js
+!Scripts/nvr_account_events.js
